@@ -4,7 +4,9 @@ Endpoint host is gone — the domain no longer resolves or refuses connections.
 
 | Provider | Endpoint | Reason |
 | --- | --- | --- |
-| Waltrack | https://waltrack.net/oembed | network error (ENOTFOUND) |
+| Programmingly.dev | https://programmingly.dev/api/oembed | network error (ENOTFOUND) |
+| biqapp | https://biqapp.net/api/oembed | network error (ENOTFOUND) |
+| TypeCast | https://play.typecast.ai/oembed | network error (ENOTFOUND) |
 | Hopvue | https://portal.hopvue.com/api/oembed/ | network error (ENOTFOUND) |
 | Archivos | https://app.archivos.digital/oembed/ | network error (ENOTFOUND) |
 | Beams.fm | https://api.beams.fm/oEmbed | network error (ENOTFOUND) |
@@ -23,25 +25,23 @@ Endpoint host is gone — the domain no longer resolves or refuses connections.
 | kmdr | https://api.kmdr.sh/services/oembed | network error (ENOTFOUND) |
 | Knacki | https://jdr.knacki.info/oembed | network error (ENOTFOUND) |
 | Kooapp | https://embed.kooapp.com/services/oembed | network error (ENOTFOUND) |
-| Minerva | https://oembed.minervaknows.com | network error (EAI_AGAIN) |
-| Cardinal Blue | https://minesweeper.today/api/oembed | network error (ENOTFOUND) |
 | NoPaste | https://oembed.nopaste.ml | network error (ENOTFOUND) |
 | OZ | https://core.oz.com/oembed | network error (ENOTFOUND) |
 | Picturelfy | https://api.picturelfy.com/service/oembed/ | network error (ENOTFOUND) |
-| Piggy | https://piggy.to/oembed | network error (ENOTFOUND) |
 | Pikasso | https://builder.pikasso.xyz/api/oembed | network error (ENOTFOUND) |
 | PingVP | https://beta.pingvp.com.kpnis.nl/p/oembed.php | network error (ENOTFOUND) |
 | Present | https://gateway.cobalt.run/present/decks/oembed | network error (ENOTFOUND) |
 | RadioPublic | https://oembed.radiopublic.com/oembed | network error (ENOTFOUND) |
 | Raindrop | https://pub.raindrop.io/api/oembed | network error (ENOTFOUND) |
+| ShortNote | https://www.shortnote.jp/oembed/ | network error (EAI_AGAIN) |
+| Slate App | https://*.slateapp.com/api/v2/oembed | network error (ENOTFOUND) |
 | Smeme | https://open.smeme.com/api/oembed | network error (ENOTFOUND) |
-| Subscribi | https://subscribi.io/api/oembed | network error (ENOTFOUND) |
 | VeeR VR | https://api.veer.tv/oembed | network error (ENOTFOUND) |
 | VeeR VR | https://api.veervr.tv/oembed | network error (ENOTFOUND) |
 | Webcrumbs | https://webcrumbs.dev/oembed | network error (ENOTFOUND) |
 | Wiredrive | http://*.wiredrive.com/present-oembed/ | network error (ENOTFOUND) |
 
-### Unverified (174)
+### Unverified (194)
 
 Endpoint answers but no example returned a valid oEmbed document — a stale
 example, a WAF/Cloudflare block, or a dead service that still serves a 200
@@ -50,11 +50,14 @@ page. Never auto-moved; needs a fresh example URL or a manual call.
 | Provider | Endpoint | Endpoint status |
 | --- | --- | --- |
 | 1mind | https://app.1mind.com/oembed | 400 |
-| 23HQ | http://www.23hq.com/23/oembed | 503 |
-| Infoveave | https://infoveave.net/services/oembed/ | 20 |
+| 23HQ | http://www.23hq.com/23/oembed | 404 |
+| Elupedia | https://www.elupedia.fr/api/oembed | 400 |
+| HASH | https://api.hash.ai/oembed | 404 |
+| Infoveave | https://infoveave.net/services/oembed/ | 404 |
 | Injurymap | https://www.injurymap.com/services/oembed | 404 |
 | JustSpin | https://www.justspin.cc/api/oembed | 400 |
 | Nouncify | https://nouncify.com/api/oembed | 400 |
+| Typecel | https://app.typecel.io/api/oembed | 404 |
 | WPPaste | https://wppaste.com/api/oembed | 400 |
 | Abraia | https://api.abraia.me/oembed | 400 |
 | afreecaTV | https://openapi.afreecatv.com/oembed/embedinfo | 200 |
@@ -63,26 +66,31 @@ page. Never auto-moved; needs a fresh example URL or a manual call.
 | Animatron | https://animatron.com/oembed/json | 200 |
 | Animoto | http://animoto.com/oembeds/create | 400 |
 | AnnieMusic | https://api.anniemusic.app/api/v1/oembed | 404 |
-| Apple Podcasts | https://podcasts.apple.com/api/oembed | 500 |
-| Atlantis Data Solutions | https://atlantisdatasolutions.com/oembed | 403 |
+| Apple Podcasts | https://podcasts.apple.com/api/oembed | 400 |
+| Atlantis Data Solutions | https://atlantisdatasolutions.com/oembed | 404 |
 | AudioClip | https://audioclip.naver.com/oembed | 400 |
+| AudioSFX | https://audiosfx.org/api/oembed | 403 |
+| Audius | https://audius.co/oembed | 400 |
 | Backtracks | https://backtracks.fm/oembed | 404 |
 | Beautiful.AI | https://www.beautiful.ai/api/oembed | 400 |
-| Blogcast | https://blogcast.host/oembed | 200 |
+| Blogcast | https://blogcast.host/oembed | 404 |
 | Bornetube | https://www.bornetube.dk/media/lasync/oembed/ | 200 |
 | Byzart Project | https://cmc.byzart.eu/oembed/ | 200 |
-| Cacoo | http://cacoo.com/oembed.{format} | TypeError |
+| Cacoo | http://cacoo.com/oembed.{format} | 503 |
 | CatBoat | http://img.catbo.at/oembed.json | 200 |
+| ChanceIndex | https://chanceindex.com/api/oembed | 410 |
 | ChartBlocks | http://embed.chartblocks.com/1.0/oembed | 403 |
 | CHROCO | https://chroco.ooo/embed | 400 |
 | Clipland | https://www.clipland.com/api/oembed | 404 |
 | Clyp | http://api.clyp.it/oembed/ | 400 |
 | CodePen | https://codepen.io/api/oembed | 403 |
-| Codepoints | https://codepoints.net/api/v1/oembed | 20 |
+| Codepoints | https://codepoints.net/api/v1/oembed | 403 |
 | CodeSandbox | https://codesandbox.io/oembed | 403 |
 | CollegeHumor | http://www.collegehumor.com/oembed.{format} | 200 |
 | Cueup DJ Booking | https://gql.cueup.io/oembed | 404 |
 | DALEXNI | https://dalexni.com/oembed/ | 403 |
+| Datawrapper | https://api.datawrapper.de/v3/oembed/ | 400 |
+| Deseret News | https://embed.deseret.com/ | 403 |
 | Deviantart.com | http://backend.deviantart.com/oembed | 403 |
 | DocDroid | https://www.docdroid.net/api/oembed | 200 |
 | DocumentCloud | https://api.www.documentcloud.org/api/oembed | 403 |
@@ -94,6 +102,7 @@ page. Never auto-moved; needs a fresh example URL or a manual call.
 | EgliseInfo | http://egliseinfo.catholique.fr/api/oembed | 404 |
 | Embedery | https://embedery.com/api/oembed | 404 |
 | Ethfiddle | https://ethfiddle.com/services/oembed/ | 200 |
+| Everwall | https://cdn.everwall.com/hubs/oembed | 520 |
 | Facebook | https://graph.facebook.com/v16.0/oembed_post | 400 |
 | Facebook | https://graph.facebook.com/v16.0/oembed_video | 400 |
 | Facebook | https://graph.facebook.com/v16.0/oembed_page | 400 |
@@ -101,13 +110,14 @@ page. Never auto-moved; needs a fresh example URL or a manual call.
 | FazenHaus | https://haus.fazen.co/api/oembed | 404 |
 | Filestage | https://app.filestage.io/oembed | 200 |
 | Firework | https://www.fireworktv.com/oembed | 200 |
+| Fooday | https://fooday.app/oembed | 502 |
 | FOX SPORTS Australia | https://fiso.foxsports.com.au/oembed | 404 |
 | Framatube | https://framatube.org/services/oembed | 400 |
-| FrameBuzz | https://framebuzz.com/oembed/ | 200 |
+| FrameBuzz | https://framebuzz.com/oembed/ | 403 |
 | Framer | https://api.framer.com/web/oembed | 404 |
 | Gifnote | https://www.gifnote.com/services/oembed | 200 |
 | GloriaTV | https://gloria.tv/oembed/ | 404 |
-| GMetri | https://embed.gmetri.com/oembed/ | 404 |
+| GMetri | https://embed.gmetri.com/oembed/ | UND_ERR_CONNECT_TIMEOUT |
 | Heyzine | https://heyzine.com/api1/oembed | 200 |
 | Homey | https://homey.app/api/oembed/flow | 400 |
 | The DAM consultants | https://hubspot-media-bridge.thedamconsultants.com/oembed/ | 404 |
@@ -116,11 +126,10 @@ page. Never auto-moved; needs a fresh example URL or a manual call.
 | Idomoo | https://oembed.idomoo.com/oembed | 404 |
 | IFTTT | http://www.ifttt.com/oembed/ | 200 |
 | Ignite | https://app.ignitevideo.cloud/api/oembed | 404 |
-| iHeartRadio | https://www.iheart.com/oembed | 404 |
 | iMenuPro | https://qr.imenupro.com/api/oembed | 405 |
 | Indaco | https://player.indacolive.com/services/oembed | 200 |
 | Inoreader | https://www.inoreader.com/oembed/api/ | 404 |
-| inphood | http://api.inphood.com/oembed | 200 |
+| inphood | http://api.inphood.com/oembed | 403 |
 | Jawafdehi | https://api.jawafdehi.org/oembed/ | 400 |
 | Jovian | https://api.jovian.com/oembed.json | 404 |
 | Kickstarter | http://www.kickstarter.com/services/oembed | 403 |
@@ -131,19 +140,21 @@ page. Never auto-moved; needs a fresh example URL or a manual call.
 | Line Place | https://place.line.me/oembed | 200 |
 | Linkstackz | https://api.linkstackz.com/oembed | 403 |
 | Loom | https://www.loom.com/v1/oembed | 400 |
-| MathEmbed | http://mathembed.com/oembed | 200 |
+| MathEmbed | http://mathembed.com/oembed | 403 |
 | Matterport | https://my.matterport.com/api/v1/models/oembed/ | 404 |
 | Medienarchiv der Künste - Zürcher Hochschule der Künste | https://medienarchiv.zhdk.ch/oembed.{format} | 403 |
 | me.me | https://me.me/oembed | 503 |
 | Mermaid Ink | https://mermaid.ink/services/oembed | 404 |
 | Microsoft Stream | https://web.microsoftstream.com/oembed | 200 |
+| MixCloud | https://www.mixcloud.com/oembed/ | 404 |
 | Moby Picture | http://api.mobypicture.com/oEmbed | 404 |
 | myBeweeg | https://mybeweeg.com/services/oembed | 200 |
 | MySQL Visual Explain | https://api.mysqlexplain.com/v2/oembed.json | 403 |
-| Namchey | https://namchey.com/api/oembed | 404 |
+| Namchey | https://namchey.com/api/oembed | UND_ERR_CONNECT_TIMEOUT |
 | Nasjonalbiblioteket | https://api.nb.no/catalog/v1/oembed | 404 |
 | Naver Clip | https://m.naver.com/shorts/oEmbed | 400 |
-| Observable | https://api.observablehq.com/oembed | 400 |
+| Observable | https://api.observablehq.com/oembed | 403 |
+| Odds.com.au | https://www.odds.com.au/api/oembed/ | 403 |
 | Official FM | http://official.fm/services/oembed.{format} | 200 |
 | Omniscope | https://omniscope.me/_global_/oembed/json | 404 |
 | Origits | https://origits.net/oembed | 404 |
@@ -163,17 +174,18 @@ page. Never auto-moved; needs a fresh example URL or a manual call.
 | Pyzia | https://www.pyzia.app/api/oembed | 403 |
 | Quartr | https://web.quartr.com/api/oembed | 404 |
 | QuellenSuche | http://quellensuche.de/api/oembed | 200 |
-| Beta QuellenSuche | http://beta.quellensuche.de/api/oembed | 400 |
+| Beta QuellenSuche | http://beta.quellensuche.de/api/oembed | 502 |
 | Quiz.biz | http://www.quiz.biz/api/oembed | 404 |
-| Quizz.biz | http://www.quizz.biz/api/oembed | 404 |
+| Quizz.biz | http://www.quizz.biz/api/oembed | 403 |
 | Replit | https://replit.com/data/oembed | 200 |
 | ReverbNation | https://www.reverbnation.com/oembed | 404 |
 | Risky Business | https://risky.biz/oembed | 404 |
 | Roomshare | http://roomshare.jp/en/oembed.{format} | 410 |
 | RoosterTeeth | https://roosterteeth.com/oembed | 429 |
-| biqapp | https://biqapp.net/api/oembed | 403 |
+| rushes.cc | https://api.rushes.cc/oembed | 400 |
 | Saooti | https://octopus.saooti.com/oembed | 401 |
 | Sapo Videos | http://videos.sapo.pt/oembed | 410 |
+| Scibly | https://app.scibly.com/api/oembed | 404 |
 | Screencast.com | https://api.screencast.com/external/oembed | 410 |
 | Screenr | http://www.screenr.com/api/oembed.{format} | 200 |
 | Scribd | http://www.scribd.com/services/oembed/ | 200 |
@@ -181,12 +193,17 @@ page. Never auto-moved; needs a fresh example URL or a manual call.
 | Simplecast | https://simplecast.com/oembed | 404 |
 | Sizzle | https://onsizzle.com/oembed | 503 |
 | Skoletube | https://www.skoletube.dk/media/lasync/oembed/ | 200 |
+| Slidesfly | https://slidesfly.com/api/oembed | 402 |
 | SlideShare | https://www.slideshare.net/api/oembed/2 | 200 |
+| SmashNotes | https://smashnotes.com/services/oembed | 404 |
 | Smrthi | https://www.smrthi.com/api/oembed | 402 |
 | SmugMug | https://api.smugmug.com/services/oembed/ | 501 |
+| SocialExplorer | https://www.socialexplorer.com/services/oembed/ | 404 |
 | Spotify | https://open.spotify.com/oembed | 504 |
 | Spreaker | https://api.spreaker.com/oembed | 400 |
+| StemFM | https://www.stem.fm/oembed | 404 |
 | ArcGIS StoryMaps | https://storymaps.arcgis.com/oembed | 400 |
+| Street Art Cities | https://oembed.streetartcities.com/oembed | 200 |
 | Sudomemo | https://www.sudomemo.net/oembed | 403 |
 | Supercut | https://supercut.ai/oembed | 400 |
 | Sway Office | https://sway.office.com/api/v1.0/oembed | 400 |
@@ -195,44 +212,47 @@ page. Never auto-moved; needs a fresh example URL or a manual call.
 | TextExpander | https://rest-prod.tenet.textexpander.com/oembed | 400 |
 | They Said So | https://theysaidso.com/extensions/oembed/ | 403 |
 | Tonic Audio | https://tonicaudio.com/oembed | 200 |
-| Toornament | https://widget.toornament.com/oembed | 200 |
-| Topy | http://www.topy.se/oembed/ | 500 |
+| Topy | http://www.topy.se/oembed/ | 200 |
 | Totango | https://app-test.totango.com/oembed | 401 |
 | Trackspace | https://trackspace.upitup.com/oembed | 404 |
-| TryCLI Studio | https://trycli.com/api/oembed | UND_ERR_CONNECT_TIMEOUT |
-| TypeCast | https://play.typecast.ai/oembed | 404 |
+| TryCLI Studio | https://trycli.com/api/oembed | 404 |
+| tvcf | https://play.tvcf.co.kr/rest/oembed | 403 |
 | Typlog | https://typlog.com/oembed | 404 |
 | u-poll | https://u-poll.com/oembed | 403 |
 | University of Cambridge Map | https://map.cam.ac.uk/oembed/ | 404 |
 | Ustream | http://www.ustream.tv/oembed | 404 |
 | VEVO | https://www.vevo.com/oembed | 404 |
 | VLIVE | https://www.vlive.tv/oembed | 404 |
-| Wolfram Cloud | https://www.wolframcloud.com/oembed | 503 |
-| WordPress.com | http://public-api.wordpress.com/oembed/ | 501 |
-| ZnipeTV | https://api.znipe.tv/v3/oembed/ | 502 |
+| VoxSnap | https://data.voxsnap.com/oembed | 404 |
+| WordPress.com | http://public-api.wordpress.com/oembed/ | 403 |
+| YUMPU | https://www.yumpu.com/services/oembed | 403 |
+| ZnipeTV | https://api.znipe.tv/v3/oembed/ | 404 |
+| Waltrack | https://waltrack.net/oembed | 200 |
 | chirbit.com | http://chirb.it/oembed.{format} | UND_ERR_CONNECT_TIMEOUT |
 | CoCo Corp | https://app.ilovecoco.video/api/oembed.{format} | ECONNRESET |
 | Crowd Ranking | http://crowdranking.com/api/oembed.{format} | UND_ERR_CONNECT_TIMEOUT |
-| CustomerDB | https://app.customerdb.com/embed | ERR_SSL_TLSV1_UNRECOGNIZED_NAME |
+| CustomerDB | https://app.customerdb.com/embed | 200 |
 | EchoesHQ | https://api.echoeshq.com/oembed | ERR_TLS_CERT_ALTNAME_INVALID |
 | Embedly | http://api.embed.ly/1/oembed | 403 |
 | ArcGIS Experience Builder | https://experience.arcgis.com/oembed | 200 |
 | Geograph Britain and Ireland | http://api.geograph.org.uk/api/oembed | 403 |
 | Geograph Germany | http://geo.hlipp.de/restapi.php/api/oembed | 403 |
 | MediaLab | https://*.medialab.(co|app)/api/oembed/ | ERR_INVALID_URL |
-| NFTNDX.IO | https://www.nftndx.io/oembed | 404 |
+| Minerva | https://oembed.minervaknows.com | UND_ERR_CONNECT_TIMEOUT |
+| Cardinal Blue | https://minesweeper.today/api/oembed | 404 |
+| Piggy | https://piggy.to/oembed | UND_ERR_CONNECT_TIMEOUT |
 | LeMans.Pod | https://umotion-test.univ-lemans.fr/oembed | UND_ERR_CONNECT_TIMEOUT |
 | Runkit | https://embed.runkit.com/oembed | CERT_HAS_EXPIRED |
 | Scenes | https://getscenes.com/oembed | ERR_TLS_CERT_ALTNAME_INVALID |
-| Shopshare | https://shopshare.tv/api/shopcast/oembed | 404 |
-| ShortNote | https://www.shortnote.jp/oembed/ | UND_ERR_CONNECT_TIMEOUT |
+| Shopshare | https://shopshare.tv/api/shopcast/oembed | 403 |
+| Subscribi | https://subscribi.io/api/oembed | 404 |
 | Vizydrop | https://vizydrop.com/oembed | UND_ERR_CONNECT_TIMEOUT |
 
 ### Summary
 
 | Status | Count |
 | --- | --- |
-| Verified | 224 |
-| Unverified | 174 |
+| Verified | 212 |
+| Unverified | 194 |
 | Failed | 35 |
-| **Total** | **433** |
+| **Total** | **441** |
